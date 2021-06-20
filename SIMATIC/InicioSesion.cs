@@ -24,9 +24,9 @@ namespace SIMATIC
             InitializeComponent();
             conexion.conec();
 
-            //agrego la variable scn a la cadena conexión
+            //Agregamos la variable scn a la cadena conexión
             sCn = conexion.cadena;
-            //creo la conexión pensándole como argumento la cadena
+            //Se crea la conexión, estableciendo como argumento la cadena
             conn = new SqlConnection(sCn);
             tbContrasenaIS.UseSystemPasswordChar = true;
             tbContraRIS.UseSystemPasswordChar = true;

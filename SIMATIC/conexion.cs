@@ -10,7 +10,28 @@ namespace SIMATIC
 {
     class conexion
     {
-        public static string MiServidor;
+        
+        //Usando patrón singletón para la conexión a base de datos
+       public static string cadena;
+
+        static conexion()
+        {
+            var parametros_conexion = new SqlConnectionStringBuilder();
+            //Colocar nombre de su servidor en: parametros_conexion.DataSource
+            parametros_conexion.DataSource = "MOYA"+"\\"+"UDBMSSQLSERVER";
+            parametros_conexion.InitialCatalog = "SIMATIC";
+            parametros_conexion.IntegratedSecurity = true;
+            cadena = parametros_conexion.ToString();
+        }
+
+        public static SqlConnection conec()
+        {
+            return new SqlConnection(cadena);
+        }
+
+
+        
+        /*public static string MiServidor;
         // public static string usuario, clave, db;
         public static string db;
         public static string servidor;
@@ -52,6 +73,6 @@ namespace SIMATIC
                 }
 
             }
-        }
+        }*/
     }
 }
