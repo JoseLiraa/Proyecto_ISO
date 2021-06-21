@@ -13,7 +13,7 @@ namespace SIMATIC
         
         //Usando patrón singletón para la conexión a base de datos
        public static string cadena;
-
+        //Hola mundo
         static conexion()
         {
             var parametros_conexion = new SqlConnectionStringBuilder();
