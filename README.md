@@ -18,7 +18,15 @@ Creación de un Sistema de facturación e inventario para la materia de Ingenier
 - Rivas Fabián Josué Alexander - Programación y diseño.
 
 # Licencia 📝
+Este proyecto está bajo la licencia Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0) Que establece:
 
+Eres libre de:
+
+-[x] Compartir: copiar y redistribuir el material en cualquier medio o formato.
+
+-[x] Adaptarse: remezclar, transformar y construir sobre el material.
+
+El licenciante no puede revocar estas libertades siempre que siga los términos de la licencia. 
 
 
 # Enlaces 🔗
