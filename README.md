@@ -22,9 +22,9 @@ Este proyecto está bajo la licencia Atribución-NoComercial-CompartirIgual 4.0 
 
 Eres libre de:
 
--[x] Compartir: copiar y redistribuir el material en cualquier medio o formato.
+- [x] Compartir: copiar y redistribuir el material en cualquier medio o formato.
 
--[x] Adaptarse: remezclar, transformar y construir sobre el material.
+- [x] Adaptarse: remezclar, transformar y construir sobre el material.
 
 El licenciante no puede revocar estas libertades siempre que siga los términos de la licencia. 
 
