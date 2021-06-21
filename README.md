@@ -24,6 +24,6 @@ Creación de un Sistema de facturación e inventario para la materia de Ingenier
 # Enlaces 🔗
 - Tablero en Trello [SIMATIC](https://trello.com/b/NGPvdS63/simatic)
 
-- Video del funcionamiento []
+- Funcionamiento del sistema [Video](https://drive.google.com/file/d/1ddV5HczdfXjC0iP5zxUN3wrIPyxwO06C/view?usp=sharing)
 
 - Enlace a [MockUps SIMATIC](https://drive.google.com/file/d/1qD-FtzD416LYMk3n24gw2D6VgW_pYfYl/view?usp=sharing)
