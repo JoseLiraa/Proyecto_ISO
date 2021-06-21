@@ -18,12 +18,20 @@ Creación de un Sistema de facturación e inventario para la materia de Ingenier
 - Rivas Fabián Josué Alexander - Programación y diseño.
 
 # Licencia 📝
+Este proyecto está bajo la licencia Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0) Que establece:
 
+Eres libre de:
+
+- [x] Compartir: copiar y redistribuir el material en cualquier medio o formato.
+
+- [x] Adaptarse: remezclar, transformar y construir sobre el material.
+
+El licenciante no puede revocar estas libertades siempre que siga los términos de la licencia. 
 
 
 # Enlaces 🔗
 - Tablero en Trello [SIMATIC](https://trello.com/b/NGPvdS63/simatic)
 
-- Video del funcionamiento []
+- Funcionamiento del sistema [Video](https://drive.google.com/file/d/1ddV5HczdfXjC0iP5zxUN3wrIPyxwO06C/view?usp=sharing)
 
 - Enlace a [MockUps SIMATIC](https://drive.google.com/file/d/1qD-FtzD416LYMk3n24gw2D6VgW_pYfYl/view?usp=sharing)
