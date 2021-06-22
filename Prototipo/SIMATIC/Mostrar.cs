@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 using System.Data;
 namespace SIMATIC
 {
+    /* La clase Mostrar cumple con el segundo principio solid "open/closed", su funcionalidad puede extenderse a través del
+     * código sin necesidad de ser modificada*/ 
     class Mostrar
     {
         private SqlConnection conn;
