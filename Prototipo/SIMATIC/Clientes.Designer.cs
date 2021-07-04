@@ -33,6 +33,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
             this.pAddCliente = new System.Windows.Forms.Panel();
+            this.tbNRCCliente = new System.Windows.Forms.MaskedTextBox();
             this.tbNITCliente = new System.Windows.Forms.MaskedTextBox();
             this.btnLimpiarCliente = new System.Windows.Forms.Button();
             this.btnGuardarCliente = new System.Windows.Forms.Button();
@@ -67,7 +68,6 @@
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.btnCerrarCliente = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.tbNRCCliente = new System.Windows.Forms.MaskedTextBox();
             this.pAddCliente.SuspendLayout();
             this.pRegistrosCliente.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -94,6 +94,15 @@
             this.pAddCliente.Name = "pAddCliente";
             this.pAddCliente.Size = new System.Drawing.Size(949, 388);
             this.pAddCliente.TabIndex = 3;
+            // 
+            // tbNRCCliente
+            // 
+            this.tbNRCCliente.Location = new System.Drawing.Point(396, 52);
+            this.tbNRCCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNRCCliente.Mask = "000000-0";
+            this.tbNRCCliente.Name = "tbNRCCliente";
+            this.tbNRCCliente.Size = new System.Drawing.Size(283, 22);
+            this.tbNRCCliente.TabIndex = 12;
             // 
             // tbNITCliente
             // 
@@ -518,15 +527,6 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
-            // tbNRCCliente
-            // 
-            this.tbNRCCliente.Location = new System.Drawing.Point(396, 52);
-            this.tbNRCCliente.Margin = new System.Windows.Forms.Padding(4);
-            this.tbNRCCliente.Mask = "000000-0";
-            this.tbNRCCliente.Name = "tbNRCCliente";
-            this.tbNRCCliente.Size = new System.Drawing.Size(283, 22);
-            this.tbNRCCliente.TabIndex = 12;
-            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -539,6 +539,7 @@
             this.Controls.Add(this.btnRegistroCliente);
             this.Controls.Add(this.btnAddCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Clientes";
             this.Text = "Clientes";

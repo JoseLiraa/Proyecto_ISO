@@ -309,5 +309,10 @@ namespace SIMATIC
         {
 
         }
+
+        private void tbTelefonoUsuario_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.NProdBuscar = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbUnidadesModificarProducto = new System.Windows.Forms.NumericUpDown();
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.NombreProd = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -52,6 +53,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.pAddProducto = new System.Windows.Forms.Panel();
+            this.tbUnidadesProducto = new System.Windows.Forms.NumericUpDown();
             this.tbNombreProducto = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnLimpiarProducto = new System.Windows.Forms.Button();
@@ -68,14 +70,12 @@
             this.btnRegistroProducto = new System.Windows.Forms.Button();
             this.btnAddProducto = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.tbUnidadesModificarProducto = new System.Windows.Forms.NumericUpDown();
-            this.tbUnidadesProducto = new System.Windows.Forms.NumericUpDown();
             this.pRegistrosProductos.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.pAddProducto.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesProducto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,6 +162,18 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modificar";
+            // 
+            // tbUnidadesModificarProducto
+            // 
+            this.tbUnidadesModificarProducto.Location = new System.Drawing.Point(264, 185);
+            this.tbUnidadesModificarProducto.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.tbUnidadesModificarProducto.Name = "tbUnidadesModificarProducto";
+            this.tbUnidadesModificarProducto.Size = new System.Drawing.Size(145, 26);
+            this.tbUnidadesModificarProducto.TabIndex = 6;
             // 
             // btnlimpiar
             // 
@@ -346,6 +358,18 @@
             this.pAddProducto.Name = "pAddProducto";
             this.pAddProducto.Size = new System.Drawing.Size(988, 389);
             this.pAddProducto.TabIndex = 10;
+            // 
+            // tbUnidadesProducto
+            // 
+            this.tbUnidadesProducto.Location = new System.Drawing.Point(388, 163);
+            this.tbUnidadesProducto.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.tbUnidadesProducto.Name = "tbUnidadesProducto";
+            this.tbUnidadesProducto.Size = new System.Drawing.Size(323, 22);
+            this.tbUnidadesProducto.TabIndex = 15;
             // 
             // tbNombreProducto
             // 
@@ -557,30 +581,6 @@
             this.btnAddProducto.UseVisualStyleBackColor = false;
             this.btnAddProducto.Click += new System.EventHandler(this.btnAddProducto_Click);
             // 
-            // tbUnidadesModificarProducto
-            // 
-            this.tbUnidadesModificarProducto.Location = new System.Drawing.Point(264, 185);
-            this.tbUnidadesModificarProducto.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.tbUnidadesModificarProducto.Name = "tbUnidadesModificarProducto";
-            this.tbUnidadesModificarProducto.Size = new System.Drawing.Size(145, 26);
-            this.tbUnidadesModificarProducto.TabIndex = 6;
-            // 
-            // tbUnidadesProducto
-            // 
-            this.tbUnidadesProducto.Location = new System.Drawing.Point(388, 163);
-            this.tbUnidadesProducto.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.tbUnidadesProducto.Name = "tbUnidadesProducto";
-            this.tbUnidadesProducto.Size = new System.Drawing.Size(323, 22);
-            this.tbUnidadesProducto.TabIndex = 15;
-            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -592,6 +592,7 @@
             this.Controls.Add(this.btnRegistroProducto);
             this.Controls.Add(this.btnAddProducto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Productos";
             this.Text = "Productos";
@@ -601,10 +602,10 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.pAddProducto.ResumeLayout(false);
             this.pAddProducto.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesProducto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -102,9 +102,9 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.BuscarProvNom);
             this.groupBox2.Location = new System.Drawing.Point(16, 9);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(465, 80);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -158,7 +158,7 @@
             // tbTelModificarPro
             // 
             this.tbTelModificarPro.Location = new System.Drawing.Point(221, 289);
-            this.tbTelModificarPro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTelModificarPro.Margin = new System.Windows.Forms.Padding(4);
             this.tbTelModificarPro.Mask = "0000-0000";
             this.tbTelModificarPro.Name = "tbTelModificarPro";
             this.tbTelModificarPro.Size = new System.Drawing.Size(183, 26);
@@ -334,7 +334,7 @@
             // telefonoprov
             // 
             this.telefonoprov.Location = new System.Drawing.Point(383, 203);
-            this.telefonoprov.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.telefonoprov.Margin = new System.Windows.Forms.Padding(4);
             this.telefonoprov.Mask = "0000-0000";
             this.telefonoprov.Name = "telefonoprov";
             this.telefonoprov.Size = new System.Drawing.Size(228, 22);
@@ -535,6 +535,7 @@
             this.Controls.Add(this.btnRegistroProveedores);
             this.Controls.Add(this.btnAddProveedores);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Proveedores";
             this.Text = "Proveedores";
