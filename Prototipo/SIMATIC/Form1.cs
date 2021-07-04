@@ -155,9 +155,9 @@ namespace SIMATIC
 
         private void btnFactura_Click(object sender, EventArgs e)
         {
-            /*AbrirFormInPanel(new Factura());
+            AbrirFormInPanel(new Factura());
             if (MenuVertical.Width == 173)
-                MenuVertical.Width = 50;*/
+                MenuVertical.Width = 50;
         }
 
         private void btnSesion_Click(object sender, EventArgs e)
@@ -224,6 +224,11 @@ namespace SIMATIC
         {
             //toolTip1.SetToolTip(this.btnClientes, "Clientes");
            
-        }      
+        }
+
+        private void PanelContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

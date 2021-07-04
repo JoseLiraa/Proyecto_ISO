@@ -13,12 +13,12 @@ namespace SIMATIC
         
         //Usando patrón singletón para la conexión a base de datos
        public static string cadena;
-        //Hola mundo
+        
         static conexion()
         {
             var parametros_conexion = new SqlConnectionStringBuilder();
             //Colocar nombre de su servidor en: parametros_conexion.DataSource
-            parametros_conexion.DataSource = "MOYA"+"\\"+"UDBMSSQLSERVER";
+            parametros_conexion.DataSource = "DESKTOP-HBVBPS1";
             parametros_conexion.InitialCatalog = "SIMATIC";
             parametros_conexion.IntegratedSecurity = true;
             cadena = parametros_conexion.ToString();

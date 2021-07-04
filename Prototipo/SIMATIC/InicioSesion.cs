@@ -57,44 +57,43 @@ namespace SIMATIC
 
         private void btnIngresarIS_Click(object sender, EventArgs e)
         {
-
-            
             //Validación de usuarios.
-           // conn.Open();
-            //string usuario = tbUsuarioIS.Text;
-           // string seleccion1 = "Select NombreUsuario, ClaveUsuario from Usuarios Where NombreUsuario = '" + usuario + "'";
-          //  da1 = new SqlDataAdapter(seleccion1, conn);
-            //SqlParameter prm1 = new SqlParameter("NombreUsuario", SqlDbType.VarChar);
-            //prm1.Value = usuario;
-            //da1.SelectCommand.Parameters.Add(prm1);
-            //dr1 = da1.SelectCommand.ExecuteReader();
-            //while (dr1.Read())
-            //{
-              //  UsuarioComp.Text = dr1["NombreUsuario"].ToString().Trim();
-                //ClaveUsuComp.Text = dr1["ClaveUsuario"].ToString().Trim();
-            //}
-            //conn.Close();
-            //conn.Close();
-            //if (tbUsuarioIS.Text == UsuarioComp.Text && tbContrasenaIS.Text == ClaveUsuComp.Text)
-            //{
+            conn.Open();
+            string usuario = tbUsuarioIS.Text;
+            string seleccion1 = "Select NombreUsuario, ClaveUsuario from Usuarios Where NombreUsuario = '" + usuario + "'";
+            da1 = new SqlDataAdapter(seleccion1, conn);
+            SqlParameter prm1 = new SqlParameter("NombreUsuario", SqlDbType.VarChar);
+            prm1.Value = usuario;
+            da1.SelectCommand.Parameters.Add(prm1);
+            dr1 = da1.SelectCommand.ExecuteReader();
+            while (dr1.Read())
+            {
+                UsuarioComp.Text = dr1["NombreUsuario"].ToString().Trim();
+                ClaveUsuComp.Text = dr1["ClaveUsuario"].ToString().Trim();
+            }
+            conn.Close();
+            conn.Close();
+            if (tbUsuarioIS.Text == UsuarioComp.Text && tbContrasenaIS.Text == ClaveUsuComp.Text)
+            {
                 new Form1().Show();
                 this.Hide();
-            //}
-            //else if (tbUsuarioIS.Text == "" || tbContrasenaIS.Text == "")
-            //{
-              //  MessageBox.Show("Debe de llenar los campos de Usuario y Contraseña...", "Error de ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //else if (tbUsuarioIS.Text == "" && tbContrasenaIS.Text == "")
-            //{
-              //  MessageBox.Show("Debe de llenar los campos de Usuario y Contraseña...", "Error de ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //else
-            //{
-              //  MessageBox.Show("Usuario o Clave no válidos... Intente de nuevo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //tbUsuarioIS.Text = "";
-               // tbContrasenaIS.Text = "";
-            //}
+            }
+            else if (tbUsuarioIS.Text == "" || tbContrasenaIS.Text == "")
+            {
+                MessageBox.Show("Debe de llenar los campos de Usuario y Contraseña...", "Error de ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (tbUsuarioIS.Text == "" && tbContrasenaIS.Text == "")
+            {
+                MessageBox.Show("Debe de llenar los campos de Usuario y Contraseña...", "Error de ingreso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("Usuario o Clave no válidos... Intente de nuevo", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tbUsuarioIS.Text = "";
+                tbContrasenaIS.Text = "";
+            }
         }
+
 
         private void BarraTitulo_Paint(object sender, PaintEventArgs e)
         {
