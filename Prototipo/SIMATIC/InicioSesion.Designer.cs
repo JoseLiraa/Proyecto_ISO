@@ -91,9 +91,9 @@
             this.BarraTitulo.Controls.Add(this.iconCerrarIS);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
-            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(2);
+            this.BarraTitulo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(667, 32);
+            this.BarraTitulo.Size = new System.Drawing.Size(889, 39);
             this.BarraTitulo.TabIndex = 2;
             this.BarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraTitulo_Paint);
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
@@ -102,10 +102,10 @@
             // 
             this.iconMaxiIS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconMaxiIS.Image = ((System.Drawing.Image)(resources.GetObject("iconMaxiIS.Image")));
-            this.iconMaxiIS.Location = new System.Drawing.Point(595, 6);
-            this.iconMaxiIS.Margin = new System.Windows.Forms.Padding(2);
+            this.iconMaxiIS.Location = new System.Drawing.Point(793, 7);
+            this.iconMaxiIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconMaxiIS.Name = "iconMaxiIS";
-            this.iconMaxiIS.Size = new System.Drawing.Size(20, 19);
+            this.iconMaxiIS.Size = new System.Drawing.Size(27, 23);
             this.iconMaxiIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconMaxiIS.TabIndex = 4;
             this.iconMaxiIS.TabStop = false;
@@ -115,10 +115,10 @@
             // 
             this.iconMiniIS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconMiniIS.Image = ((System.Drawing.Image)(resources.GetObject("iconMiniIS.Image")));
-            this.iconMiniIS.Location = new System.Drawing.Point(548, 6);
-            this.iconMiniIS.Margin = new System.Windows.Forms.Padding(2);
+            this.iconMiniIS.Location = new System.Drawing.Point(731, 7);
+            this.iconMiniIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconMiniIS.Name = "iconMiniIS";
-            this.iconMiniIS.Size = new System.Drawing.Size(20, 19);
+            this.iconMiniIS.Size = new System.Drawing.Size(27, 23);
             this.iconMiniIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconMiniIS.TabIndex = 3;
             this.iconMiniIS.TabStop = false;
@@ -128,10 +128,10 @@
             // 
             this.iconResaurarIS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconResaurarIS.Image = ((System.Drawing.Image)(resources.GetObject("iconResaurarIS.Image")));
-            this.iconResaurarIS.Location = new System.Drawing.Point(595, 6);
-            this.iconResaurarIS.Margin = new System.Windows.Forms.Padding(2);
+            this.iconResaurarIS.Location = new System.Drawing.Point(793, 7);
+            this.iconResaurarIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconResaurarIS.Name = "iconResaurarIS";
-            this.iconResaurarIS.Size = new System.Drawing.Size(20, 19);
+            this.iconResaurarIS.Size = new System.Drawing.Size(27, 23);
             this.iconResaurarIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconResaurarIS.TabIndex = 2;
             this.iconResaurarIS.TabStop = false;
@@ -142,10 +142,10 @@
             // 
             this.iconCerrarIS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconCerrarIS.Image = ((System.Drawing.Image)(resources.GetObject("iconCerrarIS.Image")));
-            this.iconCerrarIS.Location = new System.Drawing.Point(639, 6);
-            this.iconCerrarIS.Margin = new System.Windows.Forms.Padding(2);
+            this.iconCerrarIS.Location = new System.Drawing.Point(852, 7);
+            this.iconCerrarIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconCerrarIS.Name = "iconCerrarIS";
-            this.iconCerrarIS.Size = new System.Drawing.Size(20, 19);
+            this.iconCerrarIS.Size = new System.Drawing.Size(27, 23);
             this.iconCerrarIS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconCerrarIS.TabIndex = 1;
             this.iconCerrarIS.TabStop = false;
@@ -166,19 +166,18 @@
             this.pIngreso.Controls.Add(this.label3);
             this.pIngreso.Controls.Add(this.label2);
             this.pIngreso.Controls.Add(this.pictureBox1);
-            this.pIngreso.Location = new System.Drawing.Point(8, 38);
-            this.pIngreso.Margin = new System.Windows.Forms.Padding(2);
+            this.pIngreso.Location = new System.Drawing.Point(11, 47);
+            this.pIngreso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pIngreso.Name = "pIngreso";
-            this.pIngreso.Size = new System.Drawing.Size(648, 404);
+            this.pIngreso.Size = new System.Drawing.Size(864, 497);
             this.pIngreso.TabIndex = 3;
             // 
             // ClaveUsuComp
             // 
             this.ClaveUsuComp.AutoSize = true;
-            this.ClaveUsuComp.Location = new System.Drawing.Point(32, 265);
-            this.ClaveUsuComp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ClaveUsuComp.Location = new System.Drawing.Point(43, 326);
             this.ClaveUsuComp.Name = "ClaveUsuComp";
-            this.ClaveUsuComp.Size = new System.Drawing.Size(35, 13);
+            this.ClaveUsuComp.Size = new System.Drawing.Size(46, 17);
             this.ClaveUsuComp.TabIndex = 37;
             this.ClaveUsuComp.Text = "label4";
             this.ClaveUsuComp.Visible = false;
@@ -186,10 +185,9 @@
             // UsuarioComp
             // 
             this.UsuarioComp.AutoSize = true;
-            this.UsuarioComp.Location = new System.Drawing.Point(32, 244);
-            this.UsuarioComp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.UsuarioComp.Location = new System.Drawing.Point(43, 300);
             this.UsuarioComp.Name = "UsuarioComp";
-            this.UsuarioComp.Size = new System.Drawing.Size(35, 13);
+            this.UsuarioComp.Size = new System.Drawing.Size(46, 17);
             this.UsuarioComp.TabIndex = 36;
             this.UsuarioComp.Text = "label1";
             this.UsuarioComp.Visible = false;
@@ -197,10 +195,10 @@
             // pbContraEnable
             // 
             this.pbContraEnable.Image = ((System.Drawing.Image)(resources.GetObject("pbContraEnable.Image")));
-            this.pbContraEnable.Location = new System.Drawing.Point(469, 244);
-            this.pbContraEnable.Margin = new System.Windows.Forms.Padding(2);
+            this.pbContraEnable.Location = new System.Drawing.Point(625, 300);
+            this.pbContraEnable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbContraEnable.Name = "pbContraEnable";
-            this.pbContraEnable.Size = new System.Drawing.Size(52, 27);
+            this.pbContraEnable.Size = new System.Drawing.Size(69, 33);
             this.pbContraEnable.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbContraEnable.TabIndex = 33;
             this.pbContraEnable.TabStop = false;
@@ -211,20 +209,19 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(525, 244);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(700, 300);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 32);
+            this.label8.Size = new System.Drawing.Size(88, 38);
             this.label8.TabIndex = 32;
             this.label8.Text = "Mostrar\r\ncontraseña";
             // 
             // pbContraDisable
             // 
             this.pbContraDisable.Image = ((System.Drawing.Image)(resources.GetObject("pbContraDisable.Image")));
-            this.pbContraDisable.Location = new System.Drawing.Point(469, 244);
-            this.pbContraDisable.Margin = new System.Windows.Forms.Padding(2);
+            this.pbContraDisable.Location = new System.Drawing.Point(625, 300);
+            this.pbContraDisable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbContraDisable.Name = "pbContraDisable";
-            this.pbContraDisable.Size = new System.Drawing.Size(52, 27);
+            this.pbContraDisable.Size = new System.Drawing.Size(69, 33);
             this.pbContraDisable.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbContraDisable.TabIndex = 31;
             this.pbContraDisable.TabStop = false;
@@ -237,11 +234,11 @@
             this.btnIngresarIS.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresarIS.Image = ((System.Drawing.Image)(resources.GetObject("btnIngresarIS.Image")));
             this.btnIngresarIS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresarIS.Location = new System.Drawing.Point(504, 353);
-            this.btnIngresarIS.Margin = new System.Windows.Forms.Padding(2);
+            this.btnIngresarIS.Location = new System.Drawing.Point(672, 434);
+            this.btnIngresarIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnIngresarIS.Name = "btnIngresarIS";
-            this.btnIngresarIS.Size = new System.Drawing.Size(140, 42);
-            this.btnIngresarIS.TabIndex = 30;
+            this.btnIngresarIS.Size = new System.Drawing.Size(187, 52);
+            this.btnIngresarIS.TabIndex = 3;
             this.btnIngresarIS.Text = "       Ingresar";
             this.btnIngresarIS.UseVisualStyleBackColor = true;
             this.btnIngresarIS.Click += new System.EventHandler(this.btnIngresarIS_Click);
@@ -253,11 +250,11 @@
             this.btnSalirIS.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalirIS.Image = ((System.Drawing.Image)(resources.GetObject("btnSalirIS.Image")));
             this.btnSalirIS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalirIS.Location = new System.Drawing.Point(15, 353);
-            this.btnSalirIS.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSalirIS.Location = new System.Drawing.Point(20, 434);
+            this.btnSalirIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalirIS.Name = "btnSalirIS";
-            this.btnSalirIS.Size = new System.Drawing.Size(140, 42);
-            this.btnSalirIS.TabIndex = 29;
+            this.btnSalirIS.Size = new System.Drawing.Size(187, 52);
+            this.btnSalirIS.TabIndex = 4;
             this.btnSalirIS.Text = "       Salir";
             this.btnSalirIS.UseVisualStyleBackColor = true;
             this.btnSalirIS.Click += new System.EventHandler(this.btnSalirIS_Click);
@@ -267,10 +264,9 @@
             this.lbRecuperar.AutoSize = true;
             this.lbRecuperar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbRecuperar.ForeColor = System.Drawing.Color.Black;
-            this.lbRecuperar.Location = new System.Drawing.Point(240, 298);
-            this.lbRecuperar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbRecuperar.Location = new System.Drawing.Point(320, 367);
             this.lbRecuperar.Name = "lbRecuperar";
-            this.lbRecuperar.Size = new System.Drawing.Size(183, 20);
+            this.lbRecuperar.Size = new System.Drawing.Size(228, 22);
             this.lbRecuperar.TabIndex = 28;
             this.lbRecuperar.Text = "¿Olvido su contraseña?";
             this.lbRecuperar.Click += new System.EventHandler(this.lbRecuperar_Click);
@@ -280,29 +276,28 @@
             // tbContrasenaIS
             // 
             this.tbContrasenaIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbContrasenaIS.Location = new System.Drawing.Point(329, 244);
-            this.tbContrasenaIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbContrasenaIS.Location = new System.Drawing.Point(439, 300);
+            this.tbContrasenaIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbContrasenaIS.Name = "tbContrasenaIS";
-            this.tbContrasenaIS.Size = new System.Drawing.Size(115, 22);
-            this.tbContrasenaIS.TabIndex = 27;
+            this.tbContrasenaIS.Size = new System.Drawing.Size(152, 26);
+            this.tbContrasenaIS.TabIndex = 2;
             // 
             // tbUsuarioIS
             // 
             this.tbUsuarioIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbUsuarioIS.Location = new System.Drawing.Point(329, 203);
-            this.tbUsuarioIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbUsuarioIS.Location = new System.Drawing.Point(439, 250);
+            this.tbUsuarioIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbUsuarioIS.Name = "tbUsuarioIS";
-            this.tbUsuarioIS.Size = new System.Drawing.Size(115, 22);
-            this.tbUsuarioIS.TabIndex = 26;
+            this.tbUsuarioIS.Size = new System.Drawing.Size(152, 26);
+            this.tbUsuarioIS.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(204, 248);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(272, 305);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 20);
+            this.label3.Size = new System.Drawing.Size(124, 22);
             this.label3.TabIndex = 25;
             this.label3.Text = "Contraseña:";
             // 
@@ -310,20 +305,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(204, 205);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(272, 252);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 20);
+            this.label2.Size = new System.Drawing.Size(80, 22);
             this.label2.TabIndex = 24;
             this.label2.Text = "Usuario:";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(44, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(59, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(571, 156);
+            this.pictureBox1.Size = new System.Drawing.Size(761, 192);
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
@@ -340,10 +334,10 @@
             this.pRecuperarContra.Controls.Add(this.label5);
             this.pRecuperarContra.Controls.Add(this.pictureBox2);
             this.pRecuperarContra.Controls.Add(this.lbRespuesta);
-            this.pRecuperarContra.Location = new System.Drawing.Point(8, 36);
-            this.pRecuperarContra.Margin = new System.Windows.Forms.Padding(2);
+            this.pRecuperarContra.Location = new System.Drawing.Point(11, 44);
+            this.pRecuperarContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pRecuperarContra.Name = "pRecuperarContra";
-            this.pRecuperarContra.Size = new System.Drawing.Size(659, 406);
+            this.pRecuperarContra.Size = new System.Drawing.Size(879, 500);
             this.pRecuperarContra.TabIndex = 4;
             this.pRecuperarContra.Visible = false;
             // 
@@ -355,10 +349,10 @@
             this.pnNuevaContra.Controls.Add(this.label6);
             this.pnNuevaContra.Controls.Add(this.tbContraRIS);
             this.pnNuevaContra.Controls.Add(this.label4);
-            this.pnNuevaContra.Location = new System.Drawing.Point(14, 185);
-            this.pnNuevaContra.Margin = new System.Windows.Forms.Padding(2);
+            this.pnNuevaContra.Location = new System.Drawing.Point(19, 228);
+            this.pnNuevaContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnNuevaContra.Name = "pnNuevaContra";
-            this.pnNuevaContra.Size = new System.Drawing.Size(629, 214);
+            this.pnNuevaContra.Size = new System.Drawing.Size(839, 263);
             this.pnNuevaContra.TabIndex = 49;
             this.pnNuevaContra.Visible = false;
             // 
@@ -369,10 +363,10 @@
             this.btnRegresarNvContra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresarNvContra.Image = ((System.Drawing.Image)(resources.GetObject("btnRegresarNvContra.Image")));
             this.btnRegresarNvContra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegresarNvContra.Location = new System.Drawing.Point(329, 125);
-            this.btnRegresarNvContra.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegresarNvContra.Location = new System.Drawing.Point(439, 154);
+            this.btnRegresarNvContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresarNvContra.Name = "btnRegresarNvContra";
-            this.btnRegresarNvContra.Size = new System.Drawing.Size(140, 42);
+            this.btnRegresarNvContra.Size = new System.Drawing.Size(187, 52);
             this.btnRegresarNvContra.TabIndex = 59;
             this.btnRegresarNvContra.Text = "       Regresar";
             this.btnRegresarNvContra.UseVisualStyleBackColor = true;
@@ -385,10 +379,10 @@
             this.btnRestaurarContra.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestaurarContra.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurarContra.Image")));
             this.btnRestaurarContra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRestaurarContra.Location = new System.Drawing.Point(160, 125);
-            this.btnRestaurarContra.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRestaurarContra.Location = new System.Drawing.Point(213, 154);
+            this.btnRestaurarContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRestaurarContra.Name = "btnRestaurarContra";
-            this.btnRestaurarContra.Size = new System.Drawing.Size(140, 42);
+            this.btnRestaurarContra.Size = new System.Drawing.Size(187, 52);
             this.btnRestaurarContra.TabIndex = 58;
             this.btnRestaurarContra.Text = "       Restaurar";
             this.btnRestaurarContra.UseVisualStyleBackColor = true;
@@ -397,40 +391,38 @@
             // tbConfContraRIS
             // 
             this.tbConfContraRIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbConfContraRIS.Location = new System.Drawing.Point(329, 86);
-            this.tbConfContraRIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbConfContraRIS.Location = new System.Drawing.Point(439, 106);
+            this.tbConfContraRIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbConfContraRIS.Name = "tbConfContraRIS";
-            this.tbConfContraRIS.Size = new System.Drawing.Size(115, 22);
+            this.tbConfContraRIS.Size = new System.Drawing.Size(152, 26);
             this.tbConfContraRIS.TabIndex = 57;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(207, 75);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(276, 92);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 40);
+            this.label6.Size = new System.Drawing.Size(121, 44);
             this.label6.TabIndex = 56;
             this.label6.Text = "Confirmar\r\ncontraseña:";
             // 
             // tbContraRIS
             // 
             this.tbContraRIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbContraRIS.Location = new System.Drawing.Point(329, 43);
-            this.tbContraRIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbContraRIS.Location = new System.Drawing.Point(439, 53);
+            this.tbContraRIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbContraRIS.Name = "tbContraRIS";
-            this.tbContraRIS.Size = new System.Drawing.Size(115, 22);
+            this.tbContraRIS.Size = new System.Drawing.Size(152, 26);
             this.tbContraRIS.TabIndex = 55;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(204, 44);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(272, 54);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 20);
+            this.label4.Size = new System.Drawing.Size(124, 22);
             this.label4.TabIndex = 54;
             this.label4.Text = "Contraseña:";
             // 
@@ -440,10 +432,10 @@
             this.btnVerificarPreg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerificarPreg.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerificarPreg.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVerificarPreg.Location = new System.Drawing.Point(382, 274);
-            this.btnVerificarPreg.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVerificarPreg.Location = new System.Drawing.Point(509, 337);
+            this.btnVerificarPreg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVerificarPreg.Name = "btnVerificarPreg";
-            this.btnVerificarPreg.Size = new System.Drawing.Size(73, 27);
+            this.btnVerificarPreg.Size = new System.Drawing.Size(97, 33);
             this.btnVerificarPreg.TabIndex = 46;
             this.btnVerificarPreg.Text = "Verificar";
             this.btnVerificarPreg.UseVisualStyleBackColor = true;
@@ -455,10 +447,10 @@
             this.btnAceptarRecuperacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptarRecuperacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptarRecuperacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptarRecuperacion.Location = new System.Drawing.Point(167, 289);
-            this.btnAceptarRecuperacion.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAceptarRecuperacion.Location = new System.Drawing.Point(223, 356);
+            this.btnAceptarRecuperacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAceptarRecuperacion.Name = "btnAceptarRecuperacion";
-            this.btnAceptarRecuperacion.Size = new System.Drawing.Size(73, 27);
+            this.btnAceptarRecuperacion.Size = new System.Drawing.Size(97, 33);
             this.btnAceptarRecuperacion.TabIndex = 43;
             this.btnAceptarRecuperacion.Text = "Aceptar";
             this.btnAceptarRecuperacion.UseVisualStyleBackColor = true;
@@ -471,10 +463,10 @@
             this.btnRegresar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegresar.Image")));
             this.btnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegresar.Location = new System.Drawing.Point(504, 355);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegresar.Location = new System.Drawing.Point(672, 437);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(140, 42);
+            this.btnRegresar.Size = new System.Drawing.Size(187, 52);
             this.btnRegresar.TabIndex = 38;
             this.btnRegresar.Text = "       Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
@@ -487,10 +479,10 @@
             this.btnSalirRIS.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalirRIS.Image = ((System.Drawing.Image)(resources.GetObject("btnSalirRIS.Image")));
             this.btnSalirRIS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSalirRIS.Location = new System.Drawing.Point(15, 355);
-            this.btnSalirRIS.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSalirRIS.Location = new System.Drawing.Point(20, 437);
+            this.btnSalirRIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalirRIS.Name = "btnSalirRIS";
-            this.btnSalirRIS.Size = new System.Drawing.Size(140, 42);
+            this.btnSalirRIS.Size = new System.Drawing.Size(187, 52);
             this.btnSalirRIS.TabIndex = 37;
             this.btnSalirRIS.Text = "       Salir";
             this.btnSalirRIS.UseVisualStyleBackColor = true;
@@ -500,29 +492,28 @@
             // 
             this.tbPreguntaRIS.Enabled = false;
             this.tbPreguntaRIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbPreguntaRIS.Location = new System.Drawing.Point(381, 248);
-            this.tbPreguntaRIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPreguntaRIS.Location = new System.Drawing.Point(508, 305);
+            this.tbPreguntaRIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPreguntaRIS.Name = "tbPreguntaRIS";
-            this.tbPreguntaRIS.Size = new System.Drawing.Size(179, 22);
+            this.tbPreguntaRIS.Size = new System.Drawing.Size(237, 26);
             this.tbPreguntaRIS.TabIndex = 35;
             // 
             // tbUsuarioRIS
             // 
             this.tbUsuarioRIS.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbUsuarioRIS.Location = new System.Drawing.Point(167, 254);
-            this.tbUsuarioRIS.Margin = new System.Windows.Forms.Padding(2);
+            this.tbUsuarioRIS.Location = new System.Drawing.Point(223, 313);
+            this.tbUsuarioRIS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbUsuarioRIS.Name = "tbUsuarioRIS";
-            this.tbUsuarioRIS.Size = new System.Drawing.Size(115, 22);
+            this.tbUsuarioRIS.Size = new System.Drawing.Size(152, 26);
             this.tbUsuarioRIS.TabIndex = 34;
             // 
             // PreguntaSeg
             // 
             this.PreguntaSeg.AutoSize = true;
             this.PreguntaSeg.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PreguntaSeg.Location = new System.Drawing.Point(379, 224);
-            this.PreguntaSeg.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.PreguntaSeg.Location = new System.Drawing.Point(505, 276);
             this.PreguntaSeg.Name = "PreguntaSeg";
-            this.PreguntaSeg.Size = new System.Drawing.Size(181, 20);
+            this.PreguntaSeg.Size = new System.Drawing.Size(228, 22);
             this.PreguntaSeg.TabIndex = 33;
             this.PreguntaSeg.Text = "Pregunta de seguridad:";
             // 
@@ -530,20 +521,19 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(163, 224);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(217, 276);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 20);
+            this.label5.Size = new System.Drawing.Size(80, 22);
             this.label5.TabIndex = 32;
             this.label5.Text = "Usuario:";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(44, 17);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(59, 21);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(571, 164);
+            this.pictureBox2.Size = new System.Drawing.Size(761, 202);
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
             // 
@@ -551,25 +541,24 @@
             // 
             this.lbRespuesta.AutoSize = true;
             this.lbRespuesta.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRespuesta.Location = new System.Drawing.Point(114, 242);
-            this.lbRespuesta.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbRespuesta.Location = new System.Drawing.Point(152, 298);
             this.lbRespuesta.Name = "lbRespuesta";
-            this.lbRespuesta.Size = new System.Drawing.Size(18, 20);
+            this.lbRespuesta.Size = new System.Drawing.Size(22, 22);
             this.lbRespuesta.TabIndex = 50;
             this.lbRespuesta.Text = "R";
             this.lbRespuesta.Visible = false;
             // 
             // InicioSesion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(667, 446);
+            this.ClientSize = new System.Drawing.Size(889, 549);
             this.Controls.Add(this.pIngreso);
             this.Controls.Add(this.BarraTitulo);
             this.Controls.Add(this.pRecuperarContra);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "InicioSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InicioSesion";

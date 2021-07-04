@@ -136,7 +136,7 @@
             this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(235, 47);
-            this.btnClientes.TabIndex = 2;
+            this.btnClientes.TabIndex = 1;
             this.btnClientes.Text = "       Clientes";
             this.btnClientes.UseVisualStyleBackColor = true;
             this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
@@ -157,7 +157,7 @@
             this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(235, 47);
-            this.btnProductos.TabIndex = 3;
+            this.btnProductos.TabIndex = 2;
             this.btnProductos.Text = "       Productos";
             this.btnProductos.UseVisualStyleBackColor = true;
             this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
@@ -178,7 +178,7 @@
             this.btnProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(235, 47);
-            this.btnProveedores.TabIndex = 4;
+            this.btnProveedores.TabIndex = 3;
             this.btnProveedores.Text = "       Proveedores";
             this.btnProveedores.UseVisualStyleBackColor = true;
             this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
@@ -188,7 +188,6 @@
             // 
             this.btnFactura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnFactura.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFactura.Enabled = false;
             this.btnFactura.FlatAppearance.BorderSize = 0;
             this.btnFactura.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(95)))), ((int)(((byte)(138)))));
             this.btnFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -200,7 +199,7 @@
             this.btnFactura.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFactura.Name = "btnFactura";
             this.btnFactura.Size = new System.Drawing.Size(235, 47);
-            this.btnFactura.TabIndex = 5;
+            this.btnFactura.TabIndex = 4;
             this.btnFactura.Text = "       Facturación";
             this.btnFactura.UseVisualStyleBackColor = true;
             this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
@@ -232,7 +231,6 @@
             // 
             this.btnUsuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnUsuarios.Enabled = false;
             this.btnUsuarios.FlatAppearance.BorderSize = 0;
             this.btnUsuarios.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(95)))), ((int)(((byte)(138)))));
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -244,7 +242,7 @@
             this.btnUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(235, 47);
-            this.btnUsuarios.TabIndex = 7;
+            this.btnUsuarios.TabIndex = 5;
             this.btnUsuarios.Text = "       Usuarios";
             this.btnUsuarios.UseVisualStyleBackColor = true;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);

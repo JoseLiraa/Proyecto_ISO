@@ -43,7 +43,6 @@
             this.btnModificarProducto = new System.Windows.Forms.Button();
             this.tbPVentaModificarProducto = new System.Windows.Forms.TextBox();
             this.tbPCostoModificarProducto = new System.Windows.Forms.TextBox();
-            this.tbUnidadesModificarProducto = new System.Windows.Forms.TextBox();
             this.tbCodigoModificarProducto = new System.Windows.Forms.TextBox();
             this.tbDescripcionModificarProducto = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -59,7 +58,6 @@
             this.btnGuardarProducto = new System.Windows.Forms.Button();
             this.tbPrecioVentaProducto = new System.Windows.Forms.TextBox();
             this.tbPrecioCostoProducto = new System.Windows.Forms.TextBox();
-            this.tbUnidadesProducto = new System.Windows.Forms.TextBox();
             this.tbCodigoProducto = new System.Windows.Forms.TextBox();
             this.tbDescripcionProducto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,11 +68,15 @@
             this.btnRegistroProducto = new System.Windows.Forms.Button();
             this.btnAddProducto = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.tbUnidadesModificarProducto = new System.Windows.Forms.NumericUpDown();
+            this.tbUnidadesProducto = new System.Windows.Forms.NumericUpDown();
             this.pRegistrosProductos.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.pAddProducto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesProducto)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCerrarProducto
@@ -94,7 +96,7 @@
             this.pRegistrosProductos.Controls.Add(this.groupBox2);
             this.pRegistrosProductos.Controls.Add(this.groupBox1);
             this.pRegistrosProductos.Controls.Add(this.dgvProductos);
-            this.pRegistrosProductos.Location = new System.Drawing.Point(-1, 54);
+            this.pRegistrosProductos.Location = new System.Drawing.Point(2, 52);
             this.pRegistrosProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pRegistrosProductos.Name = "pRegistrosProductos";
             this.pRegistrosProductos.Size = new System.Drawing.Size(989, 411);
@@ -106,9 +108,9 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.NProdBuscar);
             this.groupBox2.Location = new System.Drawing.Point(12, 11);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(479, 71);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -131,11 +133,12 @@
             this.NProdBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NProdBuscar.Name = "NProdBuscar";
             this.NProdBuscar.Size = new System.Drawing.Size(189, 26);
-            this.NProdBuscar.TabIndex = 4;
+            this.NProdBuscar.TabIndex = 3;
             this.NProdBuscar.TextChanged += new System.EventHandler(this.NProdBuscar_TextChanged);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.tbUnidadesModificarProducto);
             this.groupBox1.Controls.Add(this.btnlimpiar);
             this.groupBox1.Controls.Add(this.NombreProd);
             this.groupBox1.Controls.Add(this.label13);
@@ -143,7 +146,6 @@
             this.groupBox1.Controls.Add(this.btnModificarProducto);
             this.groupBox1.Controls.Add(this.tbPVentaModificarProducto);
             this.groupBox1.Controls.Add(this.tbPCostoModificarProducto);
-            this.groupBox1.Controls.Add(this.tbUnidadesModificarProducto);
             this.groupBox1.Controls.Add(this.tbCodigoModificarProducto);
             this.groupBox1.Controls.Add(this.tbDescripcionModificarProducto);
             this.groupBox1.Controls.Add(this.label7);
@@ -171,7 +173,7 @@
             this.btnlimpiar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(76, 52);
-            this.btnlimpiar.TabIndex = 24;
+            this.btnlimpiar.TabIndex = 11;
             this.btnlimpiar.UseVisualStyleBackColor = true;
             // 
             // NombreProd
@@ -180,7 +182,7 @@
             this.NombreProd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NombreProd.Name = "NombreProd";
             this.NombreProd.Size = new System.Drawing.Size(141, 26);
-            this.NombreProd.TabIndex = 23;
+            this.NombreProd.TabIndex = 4;
             // 
             // label13
             // 
@@ -202,7 +204,7 @@
             this.btnEliminarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminarProducto.Name = "btnEliminarProducto";
             this.btnEliminarProducto.Size = new System.Drawing.Size(76, 52);
-            this.btnEliminarProducto.TabIndex = 21;
+            this.btnEliminarProducto.TabIndex = 10;
             this.btnEliminarProducto.UseVisualStyleBackColor = true;
             this.btnEliminarProducto.Click += new System.EventHandler(this.btnEliminarProducto_Click);
             // 
@@ -217,7 +219,7 @@
             this.btnModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModificarProducto.Name = "btnModificarProducto";
             this.btnModificarProducto.Size = new System.Drawing.Size(187, 52);
-            this.btnModificarProducto.TabIndex = 20;
+            this.btnModificarProducto.TabIndex = 9;
             this.btnModificarProducto.Text = "       Modificar";
             this.btnModificarProducto.UseVisualStyleBackColor = true;
             this.btnModificarProducto.Click += new System.EventHandler(this.btnModificarProducto_Click);
@@ -228,7 +230,7 @@
             this.tbPVentaModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPVentaModificarProducto.Name = "tbPVentaModificarProducto";
             this.tbPVentaModificarProducto.Size = new System.Drawing.Size(141, 26);
-            this.tbPVentaModificarProducto.TabIndex = 19;
+            this.tbPVentaModificarProducto.TabIndex = 8;
             // 
             // tbPCostoModificarProducto
             // 
@@ -236,15 +238,7 @@
             this.tbPCostoModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPCostoModificarProducto.Name = "tbPCostoModificarProducto";
             this.tbPCostoModificarProducto.Size = new System.Drawing.Size(141, 26);
-            this.tbPCostoModificarProducto.TabIndex = 18;
-            // 
-            // tbUnidadesModificarProducto
-            // 
-            this.tbUnidadesModificarProducto.Location = new System.Drawing.Point(267, 186);
-            this.tbUnidadesModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tbUnidadesModificarProducto.Name = "tbUnidadesModificarProducto";
-            this.tbUnidadesModificarProducto.Size = new System.Drawing.Size(141, 26);
-            this.tbUnidadesModificarProducto.TabIndex = 17;
+            this.tbPCostoModificarProducto.TabIndex = 7;
             // 
             // tbCodigoModificarProducto
             // 
@@ -252,8 +246,9 @@
             this.tbCodigoModificarProducto.Location = new System.Drawing.Point(264, 27);
             this.tbCodigoModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbCodigoModificarProducto.Name = "tbCodigoModificarProducto";
+            this.tbCodigoModificarProducto.ReadOnly = true;
             this.tbCodigoModificarProducto.Size = new System.Drawing.Size(141, 26);
-            this.tbCodigoModificarProducto.TabIndex = 16;
+            this.tbCodigoModificarProducto.TabIndex = 4;
             // 
             // tbDescripcionModificarProducto
             // 
@@ -261,7 +256,7 @@
             this.tbDescripcionModificarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbDescripcionModificarProducto.Name = "tbDescripcionModificarProducto";
             this.tbDescripcionModificarProducto.Size = new System.Drawing.Size(379, 26);
-            this.tbDescripcionModificarProducto.TabIndex = 15;
+            this.tbDescripcionModificarProducto.TabIndex = 5;
             // 
             // label7
             // 
@@ -315,10 +310,15 @@
             // 
             // dgvProductos
             // 
+            this.dgvProductos.AllowUserToAddRows = false;
+            this.dgvProductos.AllowUserToDeleteRows = false;
+            this.dgvProductos.AllowUserToResizeColumns = false;
+            this.dgvProductos.AllowUserToResizeRows = false;
             this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProductos.Location = new System.Drawing.Point(12, 100);
             this.dgvProductos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.ReadOnly = true;
             this.dgvProductos.RowHeadersWidth = 51;
             this.dgvProductos.RowTemplate.Height = 28;
             this.dgvProductos.Size = new System.Drawing.Size(479, 310);
@@ -327,13 +327,13 @@
             // 
             // pAddProducto
             // 
+            this.pAddProducto.Controls.Add(this.tbUnidadesProducto);
             this.pAddProducto.Controls.Add(this.tbNombreProducto);
             this.pAddProducto.Controls.Add(this.label12);
             this.pAddProducto.Controls.Add(this.btnLimpiarProducto);
             this.pAddProducto.Controls.Add(this.btnGuardarProducto);
             this.pAddProducto.Controls.Add(this.tbPrecioVentaProducto);
             this.pAddProducto.Controls.Add(this.tbPrecioCostoProducto);
-            this.pAddProducto.Controls.Add(this.tbUnidadesProducto);
             this.pAddProducto.Controls.Add(this.tbCodigoProducto);
             this.pAddProducto.Controls.Add(this.tbDescripcionProducto);
             this.pAddProducto.Controls.Add(this.label5);
@@ -341,7 +341,7 @@
             this.pAddProducto.Controls.Add(this.label3);
             this.pAddProducto.Controls.Add(this.label2);
             this.pAddProducto.Controls.Add(this.label1);
-            this.pAddProducto.Location = new System.Drawing.Point(-1, 62);
+            this.pAddProducto.Location = new System.Drawing.Point(12, 52);
             this.pAddProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pAddProducto.Name = "pAddProducto";
             this.pAddProducto.Size = new System.Drawing.Size(988, 389);
@@ -383,7 +383,7 @@
             this.btnLimpiarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiarProducto.Name = "btnLimpiarProducto";
             this.btnLimpiarProducto.Size = new System.Drawing.Size(181, 55);
-            this.btnLimpiarProducto.TabIndex = 11;
+            this.btnLimpiarProducto.TabIndex = 19;
             this.btnLimpiarProducto.Text = "       Limpiar";
             this.btnLimpiarProducto.UseVisualStyleBackColor = true;
             this.btnLimpiarProducto.Click += new System.EventHandler(this.btnLimpiarProducto_Click);
@@ -399,7 +399,7 @@
             this.btnGuardarProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGuardarProducto.Name = "btnGuardarProducto";
             this.btnGuardarProducto.Size = new System.Drawing.Size(181, 55);
-            this.btnGuardarProducto.TabIndex = 10;
+            this.btnGuardarProducto.TabIndex = 18;
             this.btnGuardarProducto.Text = "       Guardar";
             this.btnGuardarProducto.UseVisualStyleBackColor = true;
             this.btnGuardarProducto.Click += new System.EventHandler(this.btnGuardarProducto_Click);
@@ -414,7 +414,7 @@
             this.tbPrecioVentaProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPrecioVentaProducto.Name = "tbPrecioVentaProducto";
             this.tbPrecioVentaProducto.Size = new System.Drawing.Size(323, 26);
-            this.tbPrecioVentaProducto.TabIndex = 9;
+            this.tbPrecioVentaProducto.TabIndex = 17;
             // 
             // tbPrecioCostoProducto
             // 
@@ -426,19 +426,7 @@
             this.tbPrecioCostoProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbPrecioCostoProducto.Name = "tbPrecioCostoProducto";
             this.tbPrecioCostoProducto.Size = new System.Drawing.Size(323, 26);
-            this.tbPrecioCostoProducto.TabIndex = 8;
-            // 
-            // tbUnidadesProducto
-            // 
-            this.tbUnidadesProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbUnidadesProducto.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbUnidadesProducto.Location = new System.Drawing.Point(388, 159);
-            this.tbUnidadesProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tbUnidadesProducto.Name = "tbUnidadesProducto";
-            this.tbUnidadesProducto.Size = new System.Drawing.Size(323, 26);
-            this.tbUnidadesProducto.TabIndex = 7;
+            this.tbPrecioCostoProducto.TabIndex = 16;
             // 
             // tbCodigoProducto
             // 
@@ -450,7 +438,7 @@
             this.tbCodigoProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbCodigoProducto.Name = "tbCodigoProducto";
             this.tbCodigoProducto.Size = new System.Drawing.Size(323, 26);
-            this.tbCodigoProducto.TabIndex = 6;
+            this.tbCodigoProducto.TabIndex = 12;
             // 
             // tbDescripcionProducto
             // 
@@ -462,7 +450,7 @@
             this.tbDescripcionProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbDescripcionProducto.Name = "tbDescripcionProducto";
             this.tbDescripcionProducto.Size = new System.Drawing.Size(323, 26);
-            this.tbDescripcionProducto.TabIndex = 5;
+            this.tbDescripcionProducto.TabIndex = 14;
             // 
             // label5
             // 
@@ -544,7 +532,7 @@
             this.btnRegistroProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegistroProducto.Name = "btnRegistroProducto";
             this.btnRegistroProducto.Size = new System.Drawing.Size(145, 49);
-            this.btnRegistroProducto.TabIndex = 9;
+            this.btnRegistroProducto.TabIndex = 2;
             this.btnRegistroProducto.Text = "       Registros";
             this.btnRegistroProducto.UseVisualStyleBackColor = false;
             this.btnRegistroProducto.Click += new System.EventHandler(this.btnRegistroProducto_Click);
@@ -564,10 +552,34 @@
             this.btnAddProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddProducto.Name = "btnAddProducto";
             this.btnAddProducto.Size = new System.Drawing.Size(145, 49);
-            this.btnAddProducto.TabIndex = 8;
+            this.btnAddProducto.TabIndex = 1;
             this.btnAddProducto.Text = "       Agregar";
             this.btnAddProducto.UseVisualStyleBackColor = false;
             this.btnAddProducto.Click += new System.EventHandler(this.btnAddProducto_Click);
+            // 
+            // tbUnidadesModificarProducto
+            // 
+            this.tbUnidadesModificarProducto.Location = new System.Drawing.Point(264, 185);
+            this.tbUnidadesModificarProducto.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.tbUnidadesModificarProducto.Name = "tbUnidadesModificarProducto";
+            this.tbUnidadesModificarProducto.Size = new System.Drawing.Size(145, 26);
+            this.tbUnidadesModificarProducto.TabIndex = 6;
+            // 
+            // tbUnidadesProducto
+            // 
+            this.tbUnidadesProducto.Location = new System.Drawing.Point(388, 163);
+            this.tbUnidadesProducto.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.tbUnidadesProducto.Name = "tbUnidadesProducto";
+            this.tbUnidadesProducto.Size = new System.Drawing.Size(323, 22);
+            this.tbUnidadesProducto.TabIndex = 15;
             // 
             // Productos
             // 
@@ -575,8 +587,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 489);
             this.Controls.Add(this.btnCerrarProducto);
-            this.Controls.Add(this.pRegistrosProductos);
             this.Controls.Add(this.pAddProducto);
+            this.Controls.Add(this.pRegistrosProductos);
             this.Controls.Add(this.btnRegistroProducto);
             this.Controls.Add(this.btnAddProducto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -592,6 +604,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.pAddProducto.ResumeLayout(false);
             this.pAddProducto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesModificarProducto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbUnidadesProducto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -605,7 +619,6 @@
         private System.Windows.Forms.Button btnModificarProducto;
         private System.Windows.Forms.TextBox tbPVentaModificarProducto;
         private System.Windows.Forms.TextBox tbPCostoModificarProducto;
-        private System.Windows.Forms.TextBox tbUnidadesModificarProducto;
         private System.Windows.Forms.TextBox tbCodigoModificarProducto;
         private System.Windows.Forms.TextBox tbDescripcionModificarProducto;
         private System.Windows.Forms.Label label7;
@@ -619,7 +632,6 @@
         private System.Windows.Forms.Button btnGuardarProducto;
         private System.Windows.Forms.TextBox tbPrecioVentaProducto;
         private System.Windows.Forms.TextBox tbPrecioCostoProducto;
-        private System.Windows.Forms.TextBox tbUnidadesProducto;
         private System.Windows.Forms.TextBox tbCodigoProducto;
         private System.Windows.Forms.TextBox tbDescripcionProducto;
         private System.Windows.Forms.Label label5;
@@ -639,5 +651,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btnlimpiar;
+        private System.Windows.Forms.NumericUpDown tbUnidadesModificarProducto;
+        private System.Windows.Forms.NumericUpDown tbUnidadesProducto;
     }
 }

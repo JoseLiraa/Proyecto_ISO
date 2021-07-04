@@ -38,7 +38,6 @@
             this.btnGuardarCliente = new System.Windows.Forms.Button();
             this.tbGiroCliente = new System.Windows.Forms.TextBox();
             this.tbDireccionCliente = new System.Windows.Forms.TextBox();
-            this.tbNRCCliente = new System.Windows.Forms.TextBox();
             this.tbNombreCliente = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -68,6 +67,7 @@
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.btnCerrarCliente = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.tbNRCCliente = new System.Windows.Forms.MaskedTextBox();
             this.pAddCliente.SuspendLayout();
             this.pRegistrosCliente.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -77,12 +77,12 @@
             // 
             // pAddCliente
             // 
+            this.pAddCliente.Controls.Add(this.tbNRCCliente);
             this.pAddCliente.Controls.Add(this.tbNITCliente);
             this.pAddCliente.Controls.Add(this.btnLimpiarCliente);
             this.pAddCliente.Controls.Add(this.btnGuardarCliente);
             this.pAddCliente.Controls.Add(this.tbGiroCliente);
             this.pAddCliente.Controls.Add(this.tbDireccionCliente);
-            this.pAddCliente.Controls.Add(this.tbNRCCliente);
             this.pAddCliente.Controls.Add(this.tbNombreCliente);
             this.pAddCliente.Controls.Add(this.label5);
             this.pAddCliente.Controls.Add(this.label4);
@@ -98,11 +98,11 @@
             // tbNITCliente
             // 
             this.tbNITCliente.Location = new System.Drawing.Point(396, 123);
-            this.tbNITCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNITCliente.Margin = new System.Windows.Forms.Padding(4);
             this.tbNITCliente.Mask = "0000-000000-000-0";
             this.tbNITCliente.Name = "tbNITCliente";
             this.tbNITCliente.Size = new System.Drawing.Size(283, 22);
-            this.tbNITCliente.TabIndex = 12;
+            this.tbNITCliente.TabIndex = 14;
             // 
             // btnLimpiarCliente
             // 
@@ -115,7 +115,7 @@
             this.btnLimpiarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLimpiarCliente.Name = "btnLimpiarCliente";
             this.btnLimpiarCliente.Size = new System.Drawing.Size(181, 55);
-            this.btnLimpiarCliente.TabIndex = 11;
+            this.btnLimpiarCliente.TabIndex = 18;
             this.btnLimpiarCliente.Text = "       Limpiar";
             this.btnLimpiarCliente.UseVisualStyleBackColor = true;
             this.btnLimpiarCliente.Click += new System.EventHandler(this.btnLimpiarCliente_Click);
@@ -131,7 +131,7 @@
             this.btnGuardarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGuardarCliente.Name = "btnGuardarCliente";
             this.btnGuardarCliente.Size = new System.Drawing.Size(181, 55);
-            this.btnGuardarCliente.TabIndex = 10;
+            this.btnGuardarCliente.TabIndex = 17;
             this.btnGuardarCliente.Text = "       Guardar";
             this.btnGuardarCliente.UseVisualStyleBackColor = true;
             this.btnGuardarCliente.Click += new System.EventHandler(this.btnGuardarCliente_Click);
@@ -146,7 +146,7 @@
             this.tbGiroCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbGiroCliente.Name = "tbGiroCliente";
             this.tbGiroCliente.Size = new System.Drawing.Size(283, 26);
-            this.tbGiroCliente.TabIndex = 9;
+            this.tbGiroCliente.TabIndex = 16;
             // 
             // tbDireccionCliente
             // 
@@ -158,19 +158,7 @@
             this.tbDireccionCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbDireccionCliente.Name = "tbDireccionCliente";
             this.tbDireccionCliente.Size = new System.Drawing.Size(283, 26);
-            this.tbDireccionCliente.TabIndex = 8;
-            // 
-            // tbNRCCliente
-            // 
-            this.tbNRCCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbNRCCliente.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.tbNRCCliente.Location = new System.Drawing.Point(396, 53);
-            this.tbNRCCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tbNRCCliente.Name = "tbNRCCliente";
-            this.tbNRCCliente.Size = new System.Drawing.Size(283, 26);
-            this.tbNRCCliente.TabIndex = 6;
+            this.tbDireccionCliente.TabIndex = 15;
             // 
             // tbNombreCliente
             // 
@@ -182,7 +170,7 @@
             this.tbNombreCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbNombreCliente.Name = "tbNombreCliente";
             this.tbNombreCliente.Size = new System.Drawing.Size(283, 26);
-            this.tbNombreCliente.TabIndex = 5;
+            this.tbNombreCliente.TabIndex = 13;
             // 
             // label5
             // 
@@ -292,7 +280,7 @@
             this.pRegistrosCliente.Controls.Add(this.groupBox2);
             this.pRegistrosCliente.Controls.Add(this.groupBox1);
             this.pRegistrosCliente.Controls.Add(this.dgvClientes);
-            this.pRegistrosCliente.Location = new System.Drawing.Point(0, 54);
+            this.pRegistrosCliente.Location = new System.Drawing.Point(3, 53);
             this.pRegistrosCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pRegistrosCliente.Name = "pRegistrosCliente";
             this.pRegistrosCliente.Size = new System.Drawing.Size(988, 425);
@@ -305,9 +293,9 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.groupBox2.Location = new System.Drawing.Point(16, 12);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(465, 73);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -320,7 +308,7 @@
             this.tbNombreClienteBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbNombreClienteBuscar.Name = "tbNombreClienteBuscar";
             this.tbNombreClienteBuscar.Size = new System.Drawing.Size(229, 26);
-            this.tbNombreClienteBuscar.TabIndex = 4;
+            this.tbNombreClienteBuscar.TabIndex = 3;
             this.tbNombreClienteBuscar.TextChanged += new System.EventHandler(this.tbNombreClienteBuscar_TextChanged);
             // 
             // label6
@@ -361,11 +349,11 @@
             // tbNITModificar
             // 
             this.tbNITModificar.Location = new System.Drawing.Point(221, 175);
-            this.tbNITModificar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNITModificar.Margin = new System.Windows.Forms.Padding(4);
             this.tbNITModificar.Mask = "000-000000-000-0";
             this.tbNITModificar.Name = "tbNITModificar";
             this.tbNITModificar.Size = new System.Drawing.Size(185, 26);
-            this.tbNITModificar.TabIndex = 23;
+            this.tbNITModificar.TabIndex = 6;
             // 
             // Limpiar
             // 
@@ -377,7 +365,7 @@
             this.Limpiar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Limpiar.Name = "Limpiar";
             this.Limpiar.Size = new System.Drawing.Size(83, 49);
-            this.Limpiar.TabIndex = 22;
+            this.Limpiar.TabIndex = 11;
             this.Limpiar.Text = "     ";
             this.Limpiar.UseVisualStyleBackColor = true;
             this.Limpiar.Click += new System.EventHandler(this.button1_Click);
@@ -392,7 +380,7 @@
             this.btnEliminarCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminarCliente.Name = "btnEliminarCliente";
             this.btnEliminarCliente.Size = new System.Drawing.Size(99, 52);
-            this.btnEliminarCliente.TabIndex = 21;
+            this.btnEliminarCliente.TabIndex = 10;
             this.btnEliminarCliente.UseVisualStyleBackColor = true;
             this.btnEliminarCliente.Click += new System.EventHandler(this.btnEliminarCliente_Click);
             // 
@@ -407,7 +395,7 @@
             this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(187, 52);
-            this.btnModificar.TabIndex = 20;
+            this.btnModificar.TabIndex = 9;
             this.btnModificar.Text = "       Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.button2_Click);
@@ -418,7 +406,7 @@
             this.tbGiroModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbGiroModificar.Name = "tbGiroModificar";
             this.tbGiroModificar.Size = new System.Drawing.Size(185, 26);
-            this.tbGiroModificar.TabIndex = 19;
+            this.tbGiroModificar.TabIndex = 8;
             // 
             // tbDireccionModificar
             // 
@@ -427,7 +415,7 @@
             this.tbDireccionModificar.Multiline = true;
             this.tbDireccionModificar.Name = "tbDireccionModificar";
             this.tbDireccionModificar.Size = new System.Drawing.Size(185, 38);
-            this.tbDireccionModificar.TabIndex = 18;
+            this.tbDireccionModificar.TabIndex = 7;
             // 
             // tbNRCModificar
             // 
@@ -436,7 +424,7 @@
             this.tbNRCModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbNRCModificar.Name = "tbNRCModificar";
             this.tbNRCModificar.Size = new System.Drawing.Size(185, 26);
-            this.tbNRCModificar.TabIndex = 16;
+            this.tbNRCModificar.TabIndex = 4;
             // 
             // tbNombreModificar
             // 
@@ -444,7 +432,7 @@
             this.tbNombreModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tbNombreModificar.Name = "tbNombreModificar";
             this.tbNombreModificar.Size = new System.Drawing.Size(185, 26);
-            this.tbNombreModificar.TabIndex = 15;
+            this.tbNombreModificar.TabIndex = 5;
             // 
             // label7
             // 
@@ -500,6 +488,8 @@
             // 
             this.dgvClientes.AllowUserToAddRows = false;
             this.dgvClientes.AllowUserToDeleteRows = false;
+            this.dgvClientes.AllowUserToResizeColumns = false;
+            this.dgvClientes.AllowUserToResizeRows = false;
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClientes.Location = new System.Drawing.Point(11, 100);
             this.dgvClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -528,6 +518,15 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
+            // tbNRCCliente
+            // 
+            this.tbNRCCliente.Location = new System.Drawing.Point(396, 52);
+            this.tbNRCCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNRCCliente.Mask = "000000-0";
+            this.tbNRCCliente.Name = "tbNRCCliente";
+            this.tbNRCCliente.Size = new System.Drawing.Size(283, 22);
+            this.tbNRCCliente.TabIndex = 12;
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -535,8 +534,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(999, 489);
             this.Controls.Add(this.btnCerrarCliente);
-            this.Controls.Add(this.pRegistrosCliente);
             this.Controls.Add(this.pAddCliente);
+            this.Controls.Add(this.pRegistrosCliente);
             this.Controls.Add(this.btnRegistroCliente);
             this.Controls.Add(this.btnAddCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -563,7 +562,6 @@
         private System.Windows.Forms.Button btnGuardarCliente;
         private System.Windows.Forms.TextBox tbGiroCliente;
         private System.Windows.Forms.TextBox tbDireccionCliente;
-        private System.Windows.Forms.TextBox tbNRCCliente;
         private System.Windows.Forms.TextBox tbNombreCliente;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -594,6 +592,7 @@
         private System.Windows.Forms.MaskedTextBox tbNITCliente;
         private System.Windows.Forms.MaskedTextBox tbNITModificar;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.MaskedTextBox tbNRCCliente;
     }
 }
 

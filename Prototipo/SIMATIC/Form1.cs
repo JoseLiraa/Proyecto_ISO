@@ -168,9 +168,9 @@ namespace SIMATIC
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-           /* if (MenuVertical.Width == 173)
+           if (MenuVertical.Width == 173)
                 MenuVertical.Width = 50;
-            AbrirFormInPanel(new Usuarios());*/
+            AbrirFormInPanel(new Usuarios());
             
         }
 
