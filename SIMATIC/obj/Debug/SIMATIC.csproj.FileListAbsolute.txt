@@ -1,0 +1,15 @@
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.csproj.AssemblyReference.cache
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.Clientes.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.Form1.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.InicioSesion.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.NuevaContra.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.Productos.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.Properties.Resources.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.Proveedores.resources
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.csproj.GenerateResource.cache
+C:\Users\DELL I\Source\Repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.csproj.CoreCompileInputs.cache
+C:\Users\DELL I\source\repos\Proyecto_ISO\SIMATIC\bin\Debug\SIMATIC.exe.config
+C:\Users\DELL I\source\repos\Proyecto_ISO\SIMATIC\bin\Debug\SIMATIC.exe
+C:\Users\DELL I\source\repos\Proyecto_ISO\SIMATIC\bin\Debug\SIMATIC.pdb
+C:\Users\DELL I\source\repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.exe
+C:\Users\DELL I\source\repos\Proyecto_ISO\SIMATIC\obj\Debug\SIMATIC.pdb
