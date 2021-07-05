@@ -35,3 +35,5 @@ El licenciante no puede revocar estas libertades siempre que siga los términos 
 - Funcionamiento del sistema [Video](https://drive.google.com/file/d/1ddV5HczdfXjC0iP5zxUN3wrIPyxwO06C/view?usp=sharing)
 
 - Enlace a [MockUps SIMATIC](https://drive.google.com/file/d/1qD-FtzD416LYMk3n24gw2D6VgW_pYfYl/view?usp=sharing)
+
+- Enlace a [Manual de Usuario](https://drive.google.com/file/d/1ow_cdwqDRu5_xWgN2yj1mNo-cqYn71iU/view?usp=sharing)
